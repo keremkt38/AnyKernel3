@@ -34,5 +34,5 @@ mount -o rw,remount -t auto /system_root > /dev/null
 split_boot;
 ui_print "- Installing Kernel";
 flash_boot;
-
+flash_generic dtb;
 ui_print "- Installation finished successfully";
