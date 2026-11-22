@@ -35,4 +35,5 @@ split_boot;
 ui_print "- Installing Kernel";
 flash_boot;
 flash_generic dtb;
+flash_generic dtbo;
 ui_print "- Installation finished successfully";
